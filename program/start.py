@@ -102,7 +102,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/bb0c993e6ea71bb4b7f9d.jpg",
-        caption=f"""Programmer [⌯✧ميم آݪـ بــٰٰٰٖٖٖۧ͜ــــغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        caption=f"""Programmer [⌯✧ميم آݪـ بـغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
