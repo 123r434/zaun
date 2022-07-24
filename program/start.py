@@ -102,19 +102,19 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/bb0c993e6ea71bb4b7f9d.jpg",
-        caption=f"""Programmer [ مـيم آلــ بـغــ۫͜ـدِآدِي](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        caption=f"""Programmer [⌯✧ميم آݪـ بــٰٰٰٖٖٖۧ͜ــــغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton(
-                    " لتنصيب بوت.", url=f"https://t.me/N_J_9"
+                    " ⌯✧لتنصيب بوت✧⌯.", url=f"https://t.me/N_J_9"
                 ),
             ],
             [
-                InlineKeyboardButton("♡اضف البوت الى مجموعتك♡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("⌯✧قناة البوت✧⌯", url=f"https://t.me/X_8_00"),
             ]
          ]
      )
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton(
