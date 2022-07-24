@@ -110,11 +110,11 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    " ⌯✧لتنصيب بوت✧⌯.", url=f"https://t.me/N_J_9"
+                    " ⌯✧قناة البوت✧⌯.", url=f"https://t.me/X_8_00"
                 ),
             ],
             [
-                InlineKeyboardButton("⌯✧قناة البوت✧⌯", url=f"https://t.me/X_8_00"),
+                InlineKeyboardButton("⌯✧لتنصيب البوت✧⌯", url=f"https://t.me/N_J_9"),
             ]
          ]
      )
