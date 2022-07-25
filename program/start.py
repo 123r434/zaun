@@ -77,14 +77,14 @@ async def start_(client: Client, message: Message):
                     ],
                 [
                     InlineKeyboardButton("‹ اوامر التشغيل › ", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("⌯✧مبرمج السورس✧⌯", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "‹⌯✧قناة البوت✧⌯ › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/U_K_M8"
+                        "‹ ⌯✧𝑆𝑂𝐔𝑅𝐶𝐸 𝐴𝐿𝑀𝐸𝑀✧⌯ ›", url=f"https://t.me/U_K_M8"
                     ),
                 ],
                 [
@@ -101,7 +101,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bb0c993e6ea71bb4b7f9d.jpg",
+        photo=f"https://telegra.ph/file/470b6107e78f484c1f4bc.jpg",
         caption=f"""Programmer [⌯✧ميم آݪـ بـغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
